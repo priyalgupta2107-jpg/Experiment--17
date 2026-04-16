@@ -1,6 +1,6 @@
-## Experiment 17: Basic Charts and Visual Encoding
+# Experiment 17
 
-### Aim
+## Aim: 
 - To visualize data using different types of charts such as Line Chart, Bar Chart, Histogram, and Scatter Plot using Matplotlib and Seaborn.
 
 ### Libraries Used
@@ -16,31 +16,36 @@
 ### Functions and Commands Used
 - pd.DataFrame() → create dataset from dictionary  
 - print() → display dataset  
-
 - plt.plot() → create line chart (trend visualization)  
 - marker='o' / 's' → highlight data points  
 - label= → add legend labels  
 - plt.legend() → display legend  
-
 - plt.bar() → create bar chart (comparison)  
 - bar.get_height() → get value of each bar  
 - plt.text() → display values on bars  
 - plt.grid() → add grid lines for readability  
-
 - plt.hist() → create histogram (distribution of data)  
 - bins= → define number of intervals  
 - alpha= → control transparency  
 - edgecolor= → set border color  
-
 - np.mean() → calculate mean value  
 - plt.axvline() → draw vertical line (mean line in histogram)  
-
 - plt.scatter() → create scatter plot (relationship between variables)  
 - list comprehension → assign colors based on condition  
-
 - plt.title() → set graph title  
 - plt.xlabel(), plt.ylabel() → label axes  
-- plt.show() → display graph  
+- plt.show() → display graph
+- ### Additional Plot Parameters and Features
+- color= → set color of plot elements (lines, bars, points)  
+- marker= → define shape of data points (o, s, etc.)  
+- figsize= → control size of the graph  
+- alpha= → control transparency of elements  
+- edgecolor= → define border color (used in histograms/bars)  
+- plt.text(x, y, value) → display values on graphs  
+- plt.grid(True) → improve readability using grid lines  
+- conditional coloring → assign colors based on conditions using list comprehension  
+- multiple dataset visualization → plotting different datasets for comparison  
+- styling with seaborn → improves visual appearance of plots automatically   
 
 ### Seaborn Functions
 - sns.lineplot() → advanced line graph  
@@ -56,4 +61,5 @@
 - Visual Encoding → representing data visually using position, color, and size  
 
 ### Conclusion
-- The experiment demonstrates that data visualization is an essential tool for understanding patterns and relationships in data. By using charts like line graphs, bar charts, histograms, and scatter plots, complex data becomes easy to interpret. Libraries like Matplotlib and Seaborn provide powerful techniques to present data clearly, making analysis more effective and insightful.  
+- The experiment demonstrates that data visualization is an essential tool for understanding patterns and relationships in data.  
+-  By using charts like line graphs, bar charts, histograms, and scatter plots, complex data becomes easy to interpret. Libraries like Matplotlib and Seaborn provide   powerful techniques to present data clearly, making analysis more effective and insightful.    
